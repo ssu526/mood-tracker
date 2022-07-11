@@ -1,7 +1,9 @@
 # Mood Tracker
 A calendar that is used to keep a record of a user's daily mood.
 
-[Video Demo](https://www.youtube.com/watch?v=af5zCiPj1pg)
+[Live Demo](https://www.youtube.com/watch?v=af5zCiPj1pg)\
+[Video Demo](https://idyllic-lollipop-6ef2b2.netlify.app/)
+
 
 ## Screenshots
 
