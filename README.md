@@ -16,7 +16,7 @@ A calendar that is used to keep a record of a user's daily mood.
 ```
 # Before installation, you will need to create a Firebse project and register you web app.
 
-#Install dependencies
+# Install dependencies
 npm install
 
 # Place the web app's Firebase configuration in firebase-config.js
