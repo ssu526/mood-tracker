@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    /* border: 1px solid black; */
+}
+
+.container{
+    display: flex;
+}
+
+/************** SIDEBAR *********************/
+.sidebar-container{
+    background-color: rgb(245, 239, 239);
+    text-align: center;
+    flex: 0 0 220px;
+    padding-bottom: 30px;
+}
+
+.user-info-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(230, 209, 209);
+}
+
+.email{
+    font-size: 18px;
+}
+
+.signout-btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.signout-btn:hover{
+    text-decoration: underline;
+}
+
+.title{
+    padding: 40px;
+}
+
+.mood-stat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mood-stat img{
+    width: 100px;
+}
+
+.mood-stat p{
+    font-size: 20px;
+}
+
+
+/************** CALENDAR *********************/
+.year-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+    flex: 1;
+}
+
+.year-title{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.year-selection{
+    border: none;
+    outline: none;
+    font-size: 40px;
+    width: 150px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.month-container{
+    margin: 30px 20px 0px 20px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.month-header{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.week-container{
+    display: flex;
+}
+
+.week-header{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: rgb(245, 239, 239);
+}
+
+.week-header p{
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+/*********** DAY CONTAINER *****************/
+.day-container{
+    position: relative;
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    border-radius: 10px;
+    /* border: 1px solid rgb(201, 199, 199); */
+}
+
+.day p{
+    align-self: flex-start;
+    color: gray;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.day img{
+    align-self: flex-end;
+    width: 40px;
+    height: 40px;
+}
+
+.actualDay:hover{
+    background-color: blanchedalmond;
+}
+
+.today{
+    background-color: goldenrod;
+}
+
+.selectedDay{
+    background-color: blanchedalmond;
+}
+
+/*********** AUTH PAGE *****************/
+.auth-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title-container h1{
+    font-size: 50px;
+}
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+
+.yellow{
+    color: rgb(243, 243, 24);
+}
+
+.aquamarine{
+    color: #1592B4;
+}
+
+.auth-page-images{
+    display: flex;
+}
+
+.auth-page-images img{
+    width: 50px;
+}
+
+.auth-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-sub-container{
+    background-color:bisque;
+    margin: 30px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.auth-sub-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.auth-sub-container  p{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(92, 89, 89);
+}
+
+.auth-sub-container   form label{
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.auth-sub-container  form input{
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+}
+
+.auth-sub-container form button{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(192, 141, 78);
+    color: white;
+}
+
+.auth-sub-container form button:hover{
+    background-color: rgb(202, 161, 111);
+    color: white;
+}
+
+.auth-error{
+    color: red;
+}
+
+/*********** MOOD INPUT *****************/
+.mood-input{
+    display:none;
+    position: absolute;
+    top:60px;
+    left: -70px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(181, 221, 221);
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.showMoodInput{
+    display: block;
+}
+
+.mood-selector{
+    display: flex;
+}
+
+.mood-option{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.selectedMood{
+    background-color: rgb(78, 173, 173);
+    border-radius: 50%;
+}
+
+.saveBtn{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*********** MEDIA QUERY*****************/
+@Media (max-width:600px){
+    .container{
+        display: block;
+    }
+
+    .mood-stat-container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .mood-stat{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mood-stat img{
+        width: 60px;
+    }
+
+    .mood-stat p{
+        font-size: 15px;
+    }
+}
