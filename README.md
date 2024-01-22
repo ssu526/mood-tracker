@@ -1,7 +1,7 @@
 # Mood Tracker
 An app for users to log their daily moods throughout the year.
 
-[Live Demo](https://www.youtube.com/watch?v=af5zCiPj1pg)
+[Live Demo](https://idyllic-lollipop-6ef2b2.netlify.app/)
 
 
 ## Screenshots
